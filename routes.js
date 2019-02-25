@@ -13,7 +13,7 @@ export default [
         component: LazyLoad(()=>import('./d.js'))
       },
       {
-        path: "/C/E",
+        path: "/C/:id",
         component: LazyLoad(()=>import('./e.js'))
       }
     ]
